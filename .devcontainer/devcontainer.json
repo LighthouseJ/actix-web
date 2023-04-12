@@ -1,8 +1,7 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "name": "actix-web devcontainer",
+  "image": "mcr.microsoft.com/devcontainers/rust:bullseye",
   "features": {
-    "ghcr.io/devcontainers/features/common-utils:2": {},
-    "ghcr.io/devcontainers/features/rust:1": {}
   },
   "customizations": {
     "vscode": {
@@ -13,5 +12,6 @@
 				"tamasfe.even-better-toml",
 				"serayuzgur.crates"
       ]
-   }
+    }
+  }
 }
